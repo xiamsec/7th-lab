@@ -1,0 +1,198 @@
+/*-- Internal CSS for Form --*/
+
+         /*-- Input Form --*/
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+      }
+
+.container_fluid{
+    border-bottom: 1px solid #ccc;
+    background-color: #ffffff;
+}
+    /* ===== Header Section ===== */
+    .header {
+      padding: 20px 10px 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header img {
+      height: 80px;
+    }
+
+    .college-name {
+      font-size: 24px;
+      font-weight: bold;
+      color: #004d40;
+      margin-top: 10px;
+    }
+
+    /* ===== Navigation ===== */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #ffffff;
+      padding: 10px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      font-weight: bold;
+      color: purple;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar a.active {
+      color: blue;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-top: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      background-color: white;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #29552c;
+      color: white;
+      padding: 10px;
+      text-align: left;
+    }
+
+    td {
+      padding: 10px;
+      border-top: 1px solid #ddd;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    a {
+      color: #00c851;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .form-container {
+      background-color: white;
+      width: 60%;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .form-container label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .form-container input,
+    .form-container textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .form-container button {
+      margin-top: 15px;
+      background-color: #00c851;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color: #009e38;
+    }
+
+     /* ===== Output ===== */
+
+    h1 {
+      /* text-align: center; */
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .output-container {
+      background-color: #ffffff;
+      width: 70%;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+
+    .output-container h3 {
+      color: #00c851;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .output-container p {
+      font-size: 18px;
+      margin: 15px 0;
+      color: #555;
+    }
+
+    .output-container strong {
+      color: #333;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #00c851;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 18px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .back-button:hover {
+      background-color: #009e38;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .back-button:focus {
+      outline: none;
+    }

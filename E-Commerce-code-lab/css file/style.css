@@ -1,0 +1,27 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f0f0f5;
+}
+.divider { width: 790px; border: 1px solid #ccc; }
+.content-box { width: 790px; }
+table {
+ border-collapse: collapse;
+ width: 100%;
+}
+th, td {
+ border: 1px solid #333;
+ padding: 8px;
+ text-align: center;
+}
+.compact-form input {
+ padding: 6px 10px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+}
+.compact-form button {
+ padding: 6px 15px;
+ background-color: navy;
+ color: white; border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}

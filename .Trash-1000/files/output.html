@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Submission Output</title>
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container_fluid">
+    <div class="container">
+      <div class="header">
+          <a href="index.html"><img src="logo.png" alt="College Logo"></a>
+            
+          <!-- ===== Navigation ===== -->
+          <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+          </div>
+      </div>
+    </div>
+</div>
+
+
+  <h1>Form Submission Output</h1>
+
+  <!-- Output Section -->
+  <div class="output-container">
+    <h3>Submitted Data</h3>
+    <p><strong>Name:</strong> <span id="outputName"></span></p>
+    <p><strong>Email:</strong> <span id="outputEmail"></span></p>
+    <p><strong>Message:</strong> <span id="outputMessage"></span></p>
+
+    <a href="index.html" class="back-button">Go Back to Form</a>
+  </div>
+
+  <script>
+    // Get URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get('name');
+    const email = urlParams.get('email');
+    const message = urlParams.get('message');
+
+    // Display the data on the page
+    document.getElementById('outputName').innerText = name;
+    document.getElementById('outputEmail').innerText = email;
+    document.getElementById('outputMessage').innerText = message;
+  </script>
+
+</body>
+</html>
